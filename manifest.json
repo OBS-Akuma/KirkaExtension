@@ -17,8 +17,8 @@
     "https://cloudyfrogs.com/*",
     "https://ask101math.com/*",
     "https://fpsiogame.com/*",
-    "https://cloudconverts.com/*",
-  ]
+    "https://cloudconverts.com/*"
+  ],
   "content_scripts": [
     {
       "matches": ["https://kirka.io/*", "https://snipers.io/*", "https://cloudyfrogs.com/*", "https://ask101math.com/*", "https://fpsiogame.com/*", "https://cloudconverts.com/*"],
