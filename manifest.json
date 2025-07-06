@@ -3,7 +3,7 @@
   "name": "Kirka unofficial Extension",
   "version": "1.0",
   "description": "Inject custom CSS and JS into Kirka.io and proxy links",
-  "permissions": ["scripting", "storage", "tabs"],
+  "permissions": ["storage", "scripting"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon.png"
@@ -24,6 +24,14 @@
       "matches": ["https://kirka.io/*", "https://snipers.io/*", "https://cloudyfrogs.com/*", "https://ask101math.com/*", "https://fpsiogame.com/*", "https://cloudconverts.com/*"],
       "js": ["injector.js"],
       "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "scripts/*.js"
+      ],
+      "matches": ["<all_urls>"]
     }
   ]
 }
