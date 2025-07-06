@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Kirka unofficial Extensions",
+  "name": "Kirka unofficial Extension",
   "version": "1.0",
   "description": "Inject custom CSS and JS into Kirka.io and proxy links",
   "permissions": ["scripting", "storage", "tabs"],
